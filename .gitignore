@@ -33,6 +33,6 @@ build/
 .vscode/
 
 target
-mvn/
+.mvn/
 mvnw.cmd
 mvnw
