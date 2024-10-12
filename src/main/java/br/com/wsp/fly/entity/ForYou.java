@@ -22,6 +22,7 @@ public class ForYou {
     private Long fyId;
 
     @ManyToOne
+    @JoinColumn(name = "user_id")
     private User user;
 
     private String content;
